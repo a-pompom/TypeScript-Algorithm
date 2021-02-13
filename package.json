@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --silent=false"
+    "test": "jest --verbose --silent=false --"
   },
   "author": "",
   "license": "ISC",
@@ -16,12 +16,11 @@
   "jest": {
     "moduleFileExtensions": [
       "js",
-      "ts",
-      "tsx"
+      "ts"
     ],
     "moduleDirectories": [
       "node_modules",
-      "src"
+      "."
     ],
     "transform": {
       "^.+\\.ts$": "ts-jest",
